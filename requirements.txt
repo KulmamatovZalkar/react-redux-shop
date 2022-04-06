@@ -1,0 +1,19 @@
+axios
+react-router-dom
+https://cdnjs.com/libraries/semantic-ui
+redux 
+react-redux
+
+redux-dev-tools-extension
+
+"Create redux structure, in src create folder redux, in redux create folders actions, contants, reducer and file store.js
+In actions create productActions.js
+In contants create actionTypes.js
+in actionTypes we need to export object ActionTypes and we go to file productActions in actions then we create two action creators setProducts and selectedProduct then we go to reducer folder and inside this folder, we create two files index.js and productReducer.js, and we must describe productReduser inside productReduser.js
+then we go index.js and create combineReducers
+Then we go to store.js 
+Then we add redux devtools extension
+
+then we import Provider from react-redux and import store from store
+then we create Header, ProductListing, ProductComponent, ProductDetails in containers
+"
