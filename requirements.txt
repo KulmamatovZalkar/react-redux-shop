@@ -16,4 +16,14 @@ Then we add redux devtools extension
 
 then we import Provider from react-redux and import store from store
 then we create Header, ProductListing, ProductComponent, ProductDetails in containers
+
+Then we go to file Header.js and create component, ProductListning and ProductComponent
+
+Then we create routes in App.js
+
+Then we go ProductsListning.js
+
+Then we go ProductComponent.js
+
+Then we go in https://fakestoreapi.com/docs and go ProductsListning.js and import axios
 "
