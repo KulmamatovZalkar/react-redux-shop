@@ -8,7 +8,6 @@ const ProductListing = () => {
   const products = useSelector((state) => state);
   console.log(products);
   const dispatch = useDispatch();
-
   const fetchProducts = async () => {
     const response = await axios
       .get("https://fakestoreapi.com/products")
@@ -21,6 +20,8 @@ const ProductListing = () => {
   useEffect(() => {
     fetchProducts();
   }, []);
+
+  console.log("Product :", products);
 
   return (
     <div className="ui grid container" style={{ paddingTop: "4.75rem" }}>
